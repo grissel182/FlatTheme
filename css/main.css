@@ -1,0 +1,360 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*CODIGO GRISSEL */
+
+/*SECCION LATEST PROJECTS////////////*/
+*{
+	font-family: 'Roboto';
+}
+.bg-gray-g{
+	background-color: #F5F5F5;
+}
+/*botoñes de next y prev*/
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: white !important;
+  background-color: #F32E2E !important;
+  border-color: #D91313 !important;
+}
+.red-g .pagination > li span{
+	color: white !important;
+}
+.pagination > li > a,
+.pagination > li > span{
+	color: white !important;
+  	background-color: #FF4A4A !important;
+  	border-color: #D91313 !important;
+}
+/*fondo blanco */
+.blanco-g{
+	background-color: white;
+	border:.2em solid #E3E0E0;
+	padding: 4%;
+}
+/*paddings*/
+.pd-g{
+	padding: 5% 0%;
+}
+/*imagenes*/
+.img-1-g{
+	width: 100%;
+}
+/*.puntos-g{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+
+}*/
+/*SECCION what our clients say////////////*/
+.white-g{
+	color: white;
+}
+.bg-red-g{
+	background-color: #E74C3C;
+}
+.line-g{
+	border-left: .5em solid white;
+	padding: 0em 0em .5em 2em;
+
+}
+.mt-1-g{
+	margin-top: 2%;
+}
+
+/*/////////////////////////blog/////////////////*/
+
+/*seccion izq77//////////////////*/
+
+/*bloque blanco redondeado*/
+.white-rounded-g{
+	background-color: white;
+	border-radius: 1em;
+}
+.w-100-g{
+	width: 100%;
+}
+.inline{
+	display: inline-block;
+}
+.text-blog-g{
+	padding: 3%;
+}
+.mt-2-g{
+	margin-top: 2%;
+}
+.round-img{
+	border-radius: 1em 1em 0em 0em;
+}
+/*paginacion blñanca y azul del blog*/
+.blog-pag-g .pagination > .active,
+.blog-pag-g .pagination > li > a:hover,
+.blog-pag-g .pagination > li > span:hover,
+.blog-pag-g .pagination > li > a:focus,
+.blog-pag-g .pagination > li > span:focus {
+  color: white !important;
+  background-color: #434879 !important;
+  border-color: #434879 !important;
+}
+.blog-pag-g .pagination > li > a,
+.blog-pag-g .pagination > li > span{
+	color: #434879 !important;
+  	background-color: white !important;
+  	border-color: white !important;
+}
+.blog-pag-g .pagination > li{
+	font-weight: 600;
+}
+
+/*parte derecha blog*/
+.navbar-form {
+  	padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 3%;
+}
+.round-img-ad{
+	border-radius: .5em;
+}
+.mt-5-g{
+	margin-top: 5%;
+}
+.menu-der-g ul li{
+	list-style-type: none;
+
+}
+.menu-der-g ul{
+	padding: 0px;
+}
+.menu-der-g a{
+	text-decoration: none;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+i{
+	text-decoration: none;
+}
+.little-g a{
+	color: #A4A1A1 !important;
+}
+.pdr-2{
+	padding-right: 4%;
+}
+
+/*7777777///////////BLOG ITEM7//////////////////////////*/
+.black-g{
+	color: black !important;
+}
+.borde-bco-g{
+	border: white solid .2em;
+	border-radius: .4em;
+
+
+}
+.fondo-gris-g{
+	background-color: #F5F5F5;
+	padding: 2%;
+	margin: 1%;
+	border-radius: .3em;
+}
+.mb-5-g{
+	margin-bottom: 5%;
+}
+.borde-100{
+	border-radius: 100%;
+}
+.right{
+	float: right;
+}
+.pt-5-g{
+	padding-top: 1%;
+}
+/*formulario*/
+.form-group {
+    width: 100%;
+}
+.ml-3{
+	margin-left: 3%;
+}
+.gray-g{
+	color: gray;
+}
+.ml-2{
+	margin-left: 2%;
+}
+
+/*///////////////////MEDIA QUERIES////////////////////////*/
+@media screen and (max-width: 600px) {
+	.form-group{
+	width: 100%;
+}
+	.form-inline .ml-3{
+	margin-left: 0%;
+}
+	.xs-img{
+		width: 120%;
+}
+	.pdr-4{
+	padding-left: 7%;
+
+}
+	.pdr-2{
+	padding-right: 8%;
+}
+	.blog-r-g{
+		float: left;
+	}
+	.blog-l-g{
+		float: right;
+	}
+	.flotar{
+
+  float: left !important;
+
+}
+
+	}
+
+
+/*RUTH ESTILOS -FOOTER///////////////////////////////////////////////////////////////*/
+
+/*GLOBAL*/
+a{
+	text-decoration: none !important;
+}
+li{
+	list-style: none;
+}
+/*LINKS*/
+a .txt-gray :hover{
+	color:white;
+}
+div{
+	box-sizing: content-box border-box initial inherit;
+}
+/*Texto*/
+.txt-white{
+	color: white;
+}
+.txt-gray{
+	color: #8E9AA3;
+}
+.txt-dark{
+	color: #556372;
+}
+
+/*Background*/
+footer{
+	background-color: #2C3E50
+}
+#final-section{
+	background-color: #34495E;
+}
+.bg-white{
+	background-color: white;
+}
+.bg-principal{
+	background-color: #f5f5f5;
+}
+/*size*/
+.h-80{
+	width: 100%;
+	height: 18em;
+}
+/*Padding*/
+.pd-2{
+	padding: 2%;
+}
+.pd-5{
+	padding: 5%;
+}
+.mg-2{
+	margin: 1%;
+}
+/*Margin*/
+
+
+/*Estilos Sharon////////////////////////////////////////////////////////////*/
+
+/*SHARON*/
+/*barra de navegacion*/
+.navbar-default {
+    background-color: #34495E;
+    border-color: #34495E;
+}
+/*parte -Home-*/
+.icon-bar{ /*no se por que putas se movio el icono de la barra responsive, esto lo soluciona*/
+	position: relative;
+	top:-0.2em;
+}
+/*configuracion de los slides*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+            width: 100%;
+        }
+.bg-green{
+	background-color: #2ABC68;
+	width: 100%;
+	z-index: -1;
+}
+#height_s{
+	height: 200px;
+}
+.txt-white{
+	color:#FFF;
+}
+/*services*/
+h1{
+	position: relative;	
+	top: 2em;
+}
+
+
+
+.sharon-span, .sharon-ol {
+    position: relative;
+    top: 5em;
+}
+.iconf,
+.text{
+	float:left;
+}
+.iconf{
+	width: 16%;
+	margin-top:22px;
+	font-size: 50px;
+}
+.text{
+	width: 84%;
+}
+/*about us*/
+.incon_m{
+	font-size: 30px;
+}
+.breadcrumb {
+
+  background-color: #2ABC68 !important;
+  color: white !important;
+
+}
+.breadcrumb > li a{
+  color: white !important;
+}
